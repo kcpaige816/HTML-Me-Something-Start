@@ -1,1 +1,60 @@
-/* Write your CSS here! */
+
+
+ul {
+    color: azure;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab:hover {
+    background-color: skyblue;
+}
+
+.tab.active {
+    background-color: rgb(5, 28, 82);
+}
+
+#home {
+    body {
+        background: url('https://previews.dropbox.com/p/thumb/ACNPiP515PqyXcxJ8DkxGt9qwh2vA4hrXut3FlMNxrR8dIPbhPeKppLzcI6K1NGaY8T9U2lieRHC6yZN9V6LWfeOx6zfLWaDprlLZMF6U5DaHIzYAj2YccDSeqSbE1hfqNVE4epFa-Dh9ZB-IrNJulIv-rsqm735XWenGFwSNa8bsfRvBmOAbaBtzkpVfpi_wdOie-DfJaG_T9_PLxjQZyUqD_yBpGNQW9saDspuicEncsIJWa_IYGpmOxNZYnvd8quPU6E7Y4EN8hz7Vl2uXg5-cKYOCTpSR2yLIhA1Dv2Hy0EhiVwAFGsg1sh5fIF_6gksxyPLqZ0hfy5hhq9JhfCU/p.jpeg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+       }
+
+    color: azure;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+}
+
+/* #home.h2 {
+    font-family: 'Courier New', monospace;
+} */
+
+.tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
