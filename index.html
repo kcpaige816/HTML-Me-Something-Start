@@ -3,58 +3,87 @@
    <head>
       <title>KC to the DR - 2023</title>
       <link rel="stylesheet" type="text/css" href="styles.css">
-      <style>
-         body {
-          background-image: url('https://previews.dropbox.com/p/thumb/ACNPiP515PqyXcxJ8DkxGt9qwh2vA4hrXut3FlMNxrR8dIPbhPeKppLzcI6K1NGaY8T9U2lieRHC6yZN9V6LWfeOx6zfLWaDprlLZMF6U5DaHIzYAj2YccDSeqSbE1hfqNVE4epFa-Dh9ZB-IrNJulIv-rsqm735XWenGFwSNa8bsfRvBmOAbaBtzkpVfpi_wdOie-DfJaG_T9_PLxjQZyUqD_yBpGNQW9saDspuicEncsIJWa_IYGpmOxNZYnvd8quPU6E7Y4EN8hz7Vl2uXg5-cKYOCTpSR2yLIhA1Dv2Hy0EhiVwAFGsg1sh5fIF_6gksxyPLqZ0hfy5hhq9JhfCU/p.jpeg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-         }
-      </style>
-      <script src="script.js" defer></script>
    </head>
+   
    <body>
-      <header>
-         <ul class="tabs">
-            <li data-tab-target="#home" class="active tab">Home</li>
-            <li data-tab-target="#travel" class="tab">Travel Arrangements</li>
-            <li data-tab-target="#resort" class="tab">Resort Accomodations</li>
-            <li data-tab-target="#activities" class="tab">Activities</li>
-            <li data-tab-target="#gallery" class="tab">Gallery</li>
-         </ul>
+      <header class="header">
+         <img class="logo" src="images/Azure DR Logo - 70.png" alt="Kc to DR logo with plane" width="120" height="120">
 
-        <div class="tab-content">
-        
-         <div id="home" data-tab-content class="active"> 
-            <h1>My Trip to <br>The Dominican Republic<br></h1>
+           <div class="nav-bar">
+              <input type="radio" name="slider" id="home">
+              <input type="radio" name="slider" id="travel">
+              <input type="radio" name="slider" id="resort">
+              <input type="radio" name="slider" id="activities">
+              <input type="radio" name="slider" id="gallery">
+
+            <nav>
+               <label for="home" class="home">Home</label>
+               <label for="travel" class="travel">Travel</label>
+               <label for="resort" class="resort">Resort</label>
+               <label for="activities" class="activities">Activities</label>
+               <label for="gallery" class="gallery">Gallery</label>
+               <div class="slider"></div>
+            </nav>
+         </div>
+      </header>
+
+   <section>
+      <!-- <div class="container">
+         <div class="content-box"></div>
+         <div class="content 1">
+            <h1>Home</h1> -->
+            <!-- <h2>My Trip to <br>The Dominican Republic In the Spring of 2023</h2> -->
+         <!-- </div>
+         <p>this is home</p>
+      </div> -->
+
+      <div class="content content-2">
+         <div class="title">Travel</div>
+         <p>this is home</p>
+      </div>
+
+      <div class="content content-3">
+         <div class="title">Resort</div>
+         <p>this is home</p>
+      </div>
+
+      <div class="content content-4">
+         <div class="title">Activities</div>
+         <p>this is home</p>
+      </div>
+
+      <div class="content content-1">
+         <div class="title">Gallery</div>
+         <p>this is home</p>
+      </div>
+
+         <!-- <div id="home"> 
+            <h1>My Trip to <br>The Dominican Republic</h1>
                <h2>In the Spring of 2023</h2>
-            <p>Created by: Kiersten Cole</p>
          </div>
 
-         <div id="travel" data-tab-content> 
+         <div id="travel"> 
             <h2>Travel Arrangements</h2>
             <p>This is the travel page</p>
          </div>
 
-         <div id="resort" data-tab-content> 
+         <div id="resort"> 
             <h2>Resort Accomodations</h2>
             <p>This is the accomodation page</p>
          </div>
 
-         <div id="activities" data-tab-content> 
+         <div id="activities"> 
             <h2>Activities</h2>
             <p>This is the activity page</p>
          </div>
 
-         <div id="gallery" data-tab-content> 
+         <div id="gallery"> 
             <h2>Gallery</h2>
             <p>This is the gallery</p>
-         </div>
-         
-        </div>
-   
-      </header>
-      <main></main>
+         </div> -->
+      </section>
+
       <footer></footer>
+
    </body>
 </html>
