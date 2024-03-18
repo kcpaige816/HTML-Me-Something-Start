@@ -12,6 +12,12 @@ header {
     box-shadow: 0 0 8px rgba(0, 0, 0.2);
 }
 
+#mainHeading {
+    text-decoration: dotted underline rgba(30, 87, 209, 0.419);
+    font-family: "Gill Sans";
+    
+}
+
 body {
     align-items: center;
     display: block;
@@ -19,6 +25,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    margin: 8px;
 }
 
 .logo {
@@ -27,14 +34,18 @@ body {
     justify-content: center;
 }
 
-p{
+.funParagraph {
+    text-shadow: 0 0 3px aquamarine;
+}
+
+p {
     text-align: center;
     line-height: 25px;
     font-family: Verdana;
 }
 
 h2 {
-    font-family: "Gill Sans";
+    font-family: "Lucida Handwriting";
     font-size: 40px;
     text-align: center;
 }
