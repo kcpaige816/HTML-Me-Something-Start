@@ -13,7 +13,7 @@ header {
 }
 
 #mainHeading {
-    text-decoration: dotted underline rgba(30, 87, 209, 0.419);
+    color: red;
     font-family: "Gill Sans";
     
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .funParagraph {
-    text-shadow: 0 0 3px aquamarine;
+   color: green;
 }
 
 p {
@@ -99,6 +99,7 @@ article figcaption {
 .gallery img {
     margin-left: 290px;
 }
+
 video {
     border-radius: 15px;
     align-items: center;
@@ -122,11 +123,11 @@ video {
 
 a {
     color: azure;
+    text-decoration: none;
 }
 
 a:visited {
     text-decoration: none;
-    color: azure;
 }
 
 footer {
