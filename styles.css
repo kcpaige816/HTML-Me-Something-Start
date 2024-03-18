@@ -29,7 +29,7 @@ body {
 }
 
 .logo {
-   padding-left: 15px;
+    padding-left: 15px;
     display: flex;
     justify-content: center;
 }
@@ -121,7 +121,7 @@ video {
 }
 
 a {
-    text-decoration: none;
+    color: azure;
 }
 
 a:visited {
