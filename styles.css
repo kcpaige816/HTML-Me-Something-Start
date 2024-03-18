@@ -1,71 +1,97 @@
 header {
     position: fixed;
-    height: 50px;
+    height: 65px;
     top: 0;
     left: 0;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    background-color:aqua;
-    /* padding-bottom: 15px; */
-    margin-bottom: 20px;
+    justify-content: space-between;
+    background-color:rgb(30, 86, 209);
+    padding: 15px;
     box-shadow: 0 0 8px rgba(0, 0, 0.2);
 }
 
 body {
- align-items: center;
- display: block;
+    align-items: center;
+    display: block;
+    background: url('images/DR-Beach-Pic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 .logo {
-    /* padding: 20px; */
-    margin-right: 800px;
-    width: 200px;
-    margin-top: 60px;
-    cursor: pointer;
+   padding-left: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 p{
     text-align: center;
+    line-height: 25px;
+    font-family: Verdana;
 }
 
 h2 {
-    padding-top: 70px;
+    font-family: "Gill Sans";
+    font-size: 40px;
+    text-align: center;
 }
 
 nav li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 10px;
-}
-
-div {
-    padding-top: 40px;
-    margin-top: 40px;
-    /* opacity: 20%; */
-    background-color: azure;
+    margin-right: 80px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
 }
 
 section {
-    align-items: center;
+    margin-top: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(240, 255, 255, 0.75);
+    border-radius: 15px;
+    border: 1px solid rgb(167, 151, 151);
+    padding: 25px;
+    
 }
 
-.home {
-    border: 1px solid black;
+article img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border-radius: 15px;
 }
 
-.gallery figure {
-    margin: 15px;
-    border: 1px solid black;
+article figcaption {
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    background-color: azure;
+    width: 50%;
+    margin-left: 25%;
+    color:rgb(30, 86, 209);
+    border-radius: 15px;
+}
+
+.gallery div {
+    border: 1px solid #ccc;
     float: left;
     width: 180px;
-    display: flex;
-    justify-content: space-between;
-    /* overflow: auto;
-    overflow-y: hidden;
-    scrollbar-width: none; */
+}
+
+.gallery img {
+    margin-left: 290px;
+}
+video {
+    border-radius: 15px;
+    align-items: center;
+    margin-left: 350px;
 }
 
 .gallery figcaption {
@@ -75,21 +101,33 @@ section {
 
 .gallery img:hover {
     border: 1px solid #777;
+    border-radius: 15px;
 }
 
 .gallery video:hover {
     border: 1px solid #777;
-}
-
-.gallery img {
-  width: 180px;
-  height: auto;
+    border-radius: 15px;
 }
 
 a {
     text-decoration: none;
 }
 
+a:visited {
+    text-decoration: none;
+    color: azure;
+}
+
 footer {
-    background-color: aquamarine;
+    background-color:rgb(30, 86, 209);
+    color: azure;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-size: large;
 }
