@@ -93,22 +93,21 @@ article figcaption {
 
 .gallery div {
     border: 1px solid #ccc;
-    float: left;
     width: 180px;
 }
 
 .gallery img {
-    margin-left: 290px;
+    margin-left: 280px;
 }
 
 video {
     border-radius: 15px;
     align-items: center;
-    margin-left: 350px;
+    margin-left: 275px;
 }
 
 .gallery figcaption {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
 }
 
