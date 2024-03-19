@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    height: 65px;
+    height: 48px;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,6 +48,7 @@ h2 {
     font-family: "Lucida Handwriting";
     font-size: 40px;
     text-align: center;
+    padding-top: 15px;
 }
 
 nav li {
